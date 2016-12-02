@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{7c4f41b8-7d3e-4b47-92ce-176a71dd872e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Boolean.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HashTable.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\strDup.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UsageEnvironment.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UsageEnvironment_version.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HashTable.cpp" />
+    <ClCompile Include="strDup.cpp" />
+    <ClCompile Include="UsageEnvironment.cpp" />
+  </ItemGroup>
+</Project>

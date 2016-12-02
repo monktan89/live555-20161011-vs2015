@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{81ca1f53-60c0-46d9-a1b4-25b0983f0319}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GroupEId.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Groupsock.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GroupsockHelper.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\groupsock_version.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IOHandlers.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NetAddress.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NetCommon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NetInterface.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TunnelEncaps.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="inet.c" />
+    <ClCompile Include="GroupEId.cpp" />
+    <ClCompile Include="Groupsock.cpp" />
+    <ClCompile Include="GroupsockHelper.cpp" />
+    <ClCompile Include="IOHandlers.cpp" />
+    <ClCompile Include="NetAddress.cpp" />
+    <ClCompile Include="NetInterface.cpp" />
+  </ItemGroup>
+</Project>
